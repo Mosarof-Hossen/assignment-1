@@ -48,7 +48,7 @@
     background-color: burlywood;
     color: #ffffff;
 }
-
+/* needed-end */
 /* nav-section */
 .section-bg{
     background-image: url('../image/Hero-bg.png');
@@ -78,4 +78,39 @@
     font-size: 65px;
     line-height: auto;
     margin-bottom: 30px;
+}
+/* banner-end */
+/* main */
+main{
+    background-color: #f5f8ff;
+}
+/* mani-end */
+/* section-content */
+.section-m{
+    /* margin: 116px 0; */
+    padding: 116px 0;
+}
+.content-item{
+    width: 517px;
+}
+.content-title{
+    font-size: 42px;
+    line-height: auto;
+    margin: 10px 0;
+}
+.content-description{
+    font-size: 24px;
+    line-height: 36px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: #25243281;
+    margin-bottom: 15px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wc-mini-image{
+    border-radius: 48px;
 }
