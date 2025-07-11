@@ -237,6 +237,7 @@ main{
     font-size: 18px;
     font-family:"Inter", sans-serif ;
     display: block;
+    margin-top: 10px;
 }
 .form-stl{
     display: block;
@@ -247,13 +248,15 @@ main{
     border-radius:10px ;
     background-color: #ffffff;
     font-family: "Inter", sans-serif;
+    border: 1px solid #33323250;
+    
 
 }
 .btn-text-1{
     text-align: center;
     background-color: #4E47FF;
     padding: 15px 30px;
-    border: none;
+    border: none solid #ffffff;
     border-radius: 10px;
     text-decoration: none;
     transition: 0.5s;
@@ -261,4 +264,46 @@ main{
 }
 .btn-text-1:hover{
     background-color: burlywood;
+}
+.form-stl:focus{
+    box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.253);
+    
+}
+/* end */
+/* footer-section-start */
+.footer-content{
+    width: 531px;
+    margin: auto;
+    text-align: center;
+    padding: 104px 0;
+}
+.f-heading{
+    font-size: 100px;
+    line-height: auto;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 5px;
+   
+}
+.f-description{
+    color: #8987A1;
+    font-size: 18px;
+    line-height: 25px;
+}
+.f-menu{
+    width: 401px;
+    margin: auto;
+}
+.f-menu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    
+}
+.f-menu li{
+    list-style: none;
+}
+.f-menu li a{
+    text-decoration: none;
+    color: #8987A1;
 }
